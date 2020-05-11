@@ -21,3 +21,26 @@ code {
 img.selected {
   border: 5px solid black;
 }
+
+.user-grid {
+display: flex;
+width: 80%;
+flex-wrap: wrap;
+margin: 0 auto;
+
+}
+
+.user-grid li {
+max-width: 350px;
+font-size: 18px;
+color: white;
+list-style-type: none;]
+text-align: center;
+}
+
+.user-grid li img {
+  max-width: 215px;
+  margin: 10px;
+  display: block;
+}
+
