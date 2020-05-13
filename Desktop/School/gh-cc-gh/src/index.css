@@ -21,10 +21,17 @@ code {
 img.selected {
   border: 5px solid black;
 }
+.user-container input, .user-container button {
+    width: 40%;
+    margin: 0 30px;
+    padding: 20px;
+    font-style: italic;
+    border-radius: 5px;
+}
 
 .user-grid {
 display: flex;
-width: 80%;
+width: 90%;
 flex-wrap: wrap;
 margin: 0 auto;
 
@@ -34,7 +41,7 @@ margin: 0 auto;
 max-width: 350px;
 font-size: 18px;
 color: white;
-list-style-type: none;]
+list-style-type: none;
 text-align: center;
 }
 
